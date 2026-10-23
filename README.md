@@ -1,3 +1,12 @@
+# F1 Stack Simulator - Terrado, Mailene
+
+**Name:** Mailene Terrado  
+**Section:** BSIT WMT IV-II
+**Original starter repository:** https://github.com/Jackson-Soriano/f1-elec4-stack-simulator-starter
+
+**Activity description:** This activity is a pre-demo reading and exploration task for the Flask Stack Simulator. It introduces how Python and Flask connect to an HTML interface, supported by CSS, Bootstrap, JavaScript, and jQuery. The starter files were cloned and uploaded to my own repository.
+
+---
 # Flask Stack Simulator startup template
 
 This is the unfinished repository for a pre-demo reading activity. Read `Flask_PreDemo_Reading_Activity.pdf` first. 
