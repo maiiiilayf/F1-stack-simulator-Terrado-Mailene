@@ -1,23 +1,24 @@
-"""Stack Object"""
 class Stack:
     def __init__(self, items=None):
-        self.items = list(items or [])  # Copy previous values into this object.
+        self._items = list(items) if items else []
 
     def push(self, value):
-        self.items.append(value)  # The last element represents the top.
+        self._items.append(value)
 
     def pop(self):
-        return self.items.pop() if self.items else None
+        return self._items.pop() if self._items else None
 
     def peek(self):
-        return self.items[-1] if self.items else None
+        return self._items[-1] if self._items else None
 
     def is_empty(self):
-        return not self.items
+        return len(self._items) == 0
 
     def size(self):
-        return len(self.items)
+        return len(self._items)
 
     def clear(self):
-        self.items.clear()
+        self._items.clear()
 
+    def to_list(self):
+        return list(self._items)
